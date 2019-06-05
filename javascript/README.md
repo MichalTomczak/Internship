@@ -1,4 +1,4 @@
-#Frontend Internship task
+# Frontend Internship task
 
 ## Project requirements
 In brief:
