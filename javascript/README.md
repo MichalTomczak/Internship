@@ -51,7 +51,7 @@ our test cases of course.
 * We expect you to provide us with some documentation about your solution
 (e.g. README file, JSDoc).
 
-##Solution details
+## Solution details
 
 * Function `riddleSolver` accepts two-dimensional board of integers. 
   * It starts by transposing the board in order to easily take care of the 'falling' mechanism. In transposed board zeroes can be added at the begining of the row.
