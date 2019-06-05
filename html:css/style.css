@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #fff;
+}
+nav{
+    background-color: #252d76;
+    color: white;
+    font-size: 18px;
+    padding-right: 15px;
+    text-align: left;
+}
+
+nav li {
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 12px;
+    cursor: pointer;
+}
+
+nav li:hover {
+background-color: #32a5e5;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    position: absolute;
+    top:100%;
+    left:0;
+    text-align: left;
+    display: none;
+}
+
+.dropdown-content li {
+    width: 100%;
+    color: black;
+}
+
+.dropdown:hover .dropdown-content{
+    width: 150%;
+    display: block;
+    box-shadow: 1px 5px 5px 1px darkgray;
+}
+
+.contact{
+    float: right;
+}
