@@ -11,8 +11,8 @@ export default function riddleSolver(board) {
 
     function compareArrays(array1, array2){
         let result = true;
-        array1.map((row, rowNumber)=>{
-            row.map((element,index)=>{
+        array1.forEach((row, rowNumber)=>{
+            row.forEach((element,index)=>{
                 if(element !== array2[rowNumber][index]) result = false;})
         });
         return result;
